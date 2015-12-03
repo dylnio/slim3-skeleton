@@ -1,7 +1,7 @@
 {
-  "name": "MarketManager",
+  "name": "Slim3-Skeleton",
   "version": "1.0.0",
-  "description": "Market Manager",
+  "description": "Slim3-Skeleton",
   "main": "index.js",
   "author": "",
   "license": "",
@@ -13,13 +13,12 @@
     "gulp-sourcemaps": "^1.5.2",
     "gulp-util": "^3.0.6",
     "node-notifier": "^4.2.3",
-    "gulp-watch": "^4.3.4"
+    "gulp-watch": "^4.3.4",
+    "gulp-uglify": "^1.4.1"
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
     "eonasdan-bootstrap-datetimepicker": "^4.15.35",
-    "gulp-uglify": "^1.4.1",
-    "gulp-watch": "^4.3.5",
     "jquery": "^2.1.4",
     "moment": "^2.10.6",
     "select2": "^4.0.0",
