@@ -1,0 +1,13 @@
+vendor/
+/var/log/*
+/var/cache/*
+/var/tmp/*
+/var/db/*
+*~
+.DS_Store
+.idea/
+.env
+node_modules/
+public/js
+public/css
+public/fonts
