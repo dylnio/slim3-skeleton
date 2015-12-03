@@ -1,13 +1,14 @@
 <?php
 
+use App\AppEnv;
+use App\ServiceManager\Factory\ActionAbstractFactory;
+
 session_start();
 ini_set('display_errors', true);
 putenv('ROOT_DIR=' . realpath(__DIR__ . '/../'));
 if (!defined('ROOT_DIR')) {
     define('ROOT_DIR', getenv('ROOT_DIR'));
 }
-use App\AppEnv;
-use App\ServiceManager\Factory\ActionAbstractFactory;
 
 if (PHP_SAPI == 'cli-server') {
     // To help the built-in PHP dev server, check if the request was actually for
